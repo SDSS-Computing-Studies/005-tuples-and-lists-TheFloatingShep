@@ -25,5 +25,5 @@ Enter a word: virus
 """
 joe = []
 for x in range(5):
-    joe.append((input("Enter a word: ")))
+    joe.append((input("Enter a word: ")).strip())
 print(str(joe))
