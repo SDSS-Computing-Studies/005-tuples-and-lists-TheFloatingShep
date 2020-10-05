@@ -26,7 +26,7 @@ word not in list
 
 fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
 print(fruit)
-x = input("Give word: \n")
+x = (input("Give word: \n")).strip()
 if x in fruit:
     for y in range(len(fruit)):
         if x in fruit:
