@@ -19,3 +19,9 @@ Enter the replacement:Dan
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
 
 """
+x = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
+print(x)
+n1 = input("Enter a word from the list: ")
+n2 = input("Enter any word: ")
+x[x.index(n1)] = n2
+print(x)

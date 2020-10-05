@@ -23,3 +23,7 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
+joe = []
+for x in range(5):
+    joe.append(input("Enter a word: "))
+print(joe)

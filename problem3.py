@@ -23,5 +23,11 @@ Enter an integer:-1
 
 The largest number you entered is 92
 """
+n = []
+x = 0
 
-
+while x != -1:
+    x = int(input("Give number : "))
+    n.append(x)
+n.sort()
+print(n[len(n) - 1])
