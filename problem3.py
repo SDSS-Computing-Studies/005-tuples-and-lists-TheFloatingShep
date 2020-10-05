@@ -25,7 +25,6 @@ The largest number you entered is 92
 """
 n = []
 x = 0
-
 while x != -1:
     x = int(input("Give number : "))
     n.append(x)
